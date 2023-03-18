@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Outfit:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  background: rgb(255, 255, 255);
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.8cm;
+}
+.list ul {
+  display: flex;
+  gap: 1cm;
+}
+.list ul li {
+  list-style: none;
+}
+.list ul li a {
+  color: rgb(111, 111, 111);
+  text-decoration: none;
+  font-size: 20px;
+}
+.list ul li a:hover,
+.active {
+  color: rgb(49, 211, 92);
+}
+
+.btn button {
+  height: 1cm;
+  width: 4cm;
+  color: aliceblue;
+  background: linear-gradient(to right, rgb(49, 211, 92), rgb(43, 183, 218));
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+}
+.header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 90vh;
+  width: 100%;
+  background-image: url("bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-x: 120vh;
+  background-position-y: -20vh;
+  background-size: 50% 100vh;
+}
+button:hover {
+  background: linear-gradient(
+    to right,
+    rgba(49, 211, 92, 0.591),
+    rgba(43, 183, 218, 0.591)
+  );
+  transform: scale(1.2, 1.1);
+  transition: 0.5s;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-list li{
+ padding-top: 0.5cm;
+ display: none;
+}
+.active:hover{
+   
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2cm;
+  height: 70vh;
+  width: 30%;
+}
+.content h1 {
+  color: hsl(233, 26%, 24%);
+  font-size: 49px;
+  width: 100%;
+}
+.content p {
+  width: 70%;
+}
+.content button {
+  height: 1cm;
+  width: 5cm;
+  color: aliceblue;
+  background: linear-gradient(to right, rgb(49, 211, 92), rgb(43, 183, 218));
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+}
+.content button:hover {
+  background: linear-gradient(
+    to right,
+    rgba(49, 211, 92, 0.591),
+    rgba(43, 183, 218, 0.591)
+  );
+  transition: 0.5s;
+}
+.image {
+  left: 70%;
+  bottom: 30%;
+}
+.section {
+  background: hsl(0, 6%, 94%);
+  height: 70vh;
+
+  padding: 2cm;
+}
+.title {
+  height: 20%;
+  width: 50%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1cm;
+  margin: 1cm 0;
+}
+.cards h3 {
+  margin-top: 1cm;
+}
+.card {
+  width: 20%;
+  height: 50%;
+}
+.blog {
+  background-color: rgb(255, 255, 255);
+  margin: 1.6cm;
+  height: 70vh;
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+  gap: 1cm;
+  margin: 1cm;
+}
+.artcl {
+  background-color: rgb(244, 251, 255);
+  gap: 1cm;
+  width: 70vh;
+  height: auto;
+  border-radius: 10px;
+}
+.artcl p {
+  text-align: center;
+}
+.artcl h4 {
+  margin: 0.5cm 0;
+}
+.artcl img {
+  width: 100%;
+  height: 50%;
+  border-radius: 8px 8px 0 0;
+}
+footer {
+  height: 20vh;
+  background-color: hsl(233, 26%, 24%);
+}
